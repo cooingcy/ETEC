@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+     max-width: auto;
+  }
+
+#container-fluid{
+  background-color: #0d6efd;
+}
+
+h1{
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+p{
+  font-size: 15px;
+  padding-left: 30px;
+}

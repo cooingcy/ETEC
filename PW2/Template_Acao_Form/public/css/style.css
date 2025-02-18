@@ -1,0 +1,58 @@
+.carousel-item img {
+  width: 100%;
+  height: 400px; /* ou qualquer altura desejada */
+  object-fit: cover; /* para garantir que a imagem cubra a área especificada */
+  opacity: 80% black;
+}
+
+/*botao pgn principa */
+.btn_sobre_nos {
+    padding: 17px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+ .btn_sobre_nos:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+  
+  .btn_sobre_nos:active {
+    letter-spacing: 3px;
+    background-color: hsl(261, 78%, 57%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+    border-radius: 10px;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  .container {
+    overflow: hidden; 
+}
+.figure {
+    float: left;
+    margin-right: 20px; 
+}
+
+.btn{
+  margin-bottom: 50px;
+}

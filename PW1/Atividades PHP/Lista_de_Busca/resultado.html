@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <title>Resultado da Busca</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/resultado_busca.js"></script>
+</head>
+<body>
+    <h2>Resultado da Busca</h2>
+
+    <label for="searchInput">Buscar outro Carro:</label>
+    <input type="text" id="searchInput" />
+    <button id="searchButton">Buscar Novamente</button>
+    <button id="backButton">Voltar à Página Inicial</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th scope="col">Marca</th>
+                <th scope="col">Carro</th>
+                <th scope="col">Camber Dianteiro Mínimo</th>
+                <th scope="col">Camber Dianteiro Máximo</th>
+                <th scope="col">Caster Dianteiro Mínimo</th>
+                <th scope="col">Caster Dianteiro Máximo</th>
+                <th scope="col">Convergência Dianteira Mínimo</th>
+                <th scope="col">Convergência Dianteira Máximo</th>
+                <th scope="col">Camber Traseiro Mínimo</th>
+                <th scope="col">Camber Traseiro Máximo</th>
+                <th scope="col">Convergência Dianteira Mínimo</th>
+                <th scope="col">Convergência Dianteira Máximo</th>  
+            </tr>
+        </thead>
+        <tbody id="ResultTableData">
+        
+        </tbody>
+    </table>
+    <script>
+        // Adiciona evento de clique para o botão "Voltar à Página Inicial"
+        document.getElementById("backButton").onclick = function() {
+            window.location.href = "index.html";
+        };
+    </script>
+</body>
+</html>

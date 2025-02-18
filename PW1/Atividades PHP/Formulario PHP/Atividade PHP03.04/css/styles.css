@@ -1,0 +1,31 @@
+.container{
+  position: relative;
+}
+.echo{
+  word-wrap: break-word;
+}
+
+body{
+     max-width: auto;
+  }
+
+#container-fluid{
+  background-color: #0d6efd;
+}
+
+h1{
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+p{
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      margin: 0;
+      text-align: center;
+    }
+}

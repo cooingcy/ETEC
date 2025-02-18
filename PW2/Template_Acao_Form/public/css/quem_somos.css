@@ -1,0 +1,104 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}
+
+button>svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+button:hover>svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+}
+
+button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+}
+
+.back-button {
+    position: absolute;
+    top: 90px;
+    /* Ajuste a posição vertical conforme necessário */
+    left: 15px;
+    /* Ajuste a posição horizontal conforme necessário */
+    z-index: 1;
+    /* Certifique-se de que o botão esteja sobre o conteúdo */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.back-button svg {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.background-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 170px;
+    color: white;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: -50px;
+    box-sizing: border-box;
+}
+
+.background-section h3 {
+    position: relative;
+    z-index: 1;
+}
+
+.background-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.conteudo {
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
