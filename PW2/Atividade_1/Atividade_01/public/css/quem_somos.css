@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagem-fundo {
+    position: relative;
+    background-image: url('/imagens/quem_somos.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    z-index: 0;
+    filter: grayscale(45%);
+}
+
+.textos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    z-index: 1;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.titulo{
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: #868686;
+}

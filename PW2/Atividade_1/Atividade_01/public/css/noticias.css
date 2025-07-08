@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.noticia-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.767); /* Adiciona transparência */
+    color: #fff;
+}
+
+.noticia-texto {
+    flex: 1;
+    padding: 20px;
+    backdrop-filter: blur(5px); /* Aplica o efeito de desfoque */
+    border-radius: 10px;
+    margin-right: 20px; /* Espaçamento entre o texto e a imagem */
+    text-align: justify;
+}
+
+.noticia-imagem {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que a imagem respeite os limites do contêiner */
+    margin-right: 20px;
+}
+
+.noticia-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantém a proporção e corta a imagem conforme necessário */
+    filter: brightness(70%); /* Reduz um pouco o brilho da imagem para destacar o texto */
+}
+
